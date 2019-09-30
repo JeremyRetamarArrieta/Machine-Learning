@@ -1,0 +1,99 @@
+Action Space
+
+Action number	Steering	Speed
+0	
+-30degrees
+	
+1.33m/s
+1	
+-30degrees
+	
+2.67m/s
+2	
+-30degrees
+	
+4m/s
+3	
+-20degrees
+	
+1.33m/s
+4	
+-20degrees
+	
+2.67m/s
+5	
+-20degrees
+	
+4m/s
+6	
+-10degrees
+	
+1.33m/s
+7	
+-10degrees
+	
+2.67m/s
+8	
+-10degrees
+	
+4m/s
+9	
+0degrees
+	
+1.33m/s
+10	
+0degrees
+	
+2.67m/s
+11	
+0degrees
+	
+4m/s
+12	
+10degrees
+	
+1.33m/s
+13	
+10degrees
+	
+2.67m/s
+14	
+10degrees
+	
+4m/s
+15	
+20degrees
+	
+1.33m/s
+16	
+20degrees
+	
+2.67m/s
+17	
+20degrees
+	
+4m/s
+18	
+30degrees
+	
+1.33m/s
+19	
+30degrees
+	
+2.67m/s
+20	
+30degrees
+	
+4m/s
+Framework
+Tensorflow
+Reinforcement learning algorithm
+PPO
+Hyperparameter	Value
+Gradient descent batch size	128
+Entropy	0.01
+Discount factor	0.998
+Loss type	Huber
+Learning rate	0.0009
+Number of experience episodes between each policy-updating iteration	25
+Number of epochs	9
